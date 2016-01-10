@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "UIView+ReSize.h"
 
 @interface ViewController ()
+
+@property  (strong,nonatomic)  UIView *testView;
 
 @end
 
@@ -17,6 +20,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self test];
+}
+
+-(void)test{
+    self.testView=[[UIView alloc]initWithFrame:CGRectMake(40, 100, 100, 100)];
+    [self.testView setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:self.testView];
+    [self printFrame];
+    //1
+    CGRect frame=self.testView.frame;
+    frame.size.width=120;
+    self.testView.frame=frame;
+    [self printFrame];
+    //2
+    self.testView.width=120;
+    [self printFrame];
+}
+
+-(void)printFrame{
+    NSLog(@"UIView--%@",NSStringFromCGRect(self.testView.frame));
 }
 
 - (void)didReceiveMemoryWarning {

@@ -15,6 +15,7 @@
 		C5BB0E8B1C42956A006E4DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BB0E891C42956A006E4DC4 /* LaunchScreen.storyboard */; };
 		C5BB0E961C42956B006E4DC4 /* iOS_FEViewReSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB0E951C42956B006E4DC4 /* iOS_FEViewReSizeTests.m */; };
 		C5BB0EA11C42956B006E4DC4 /* iOS_FEViewReSizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB0EA01C42956B006E4DC4 /* iOS_FEViewReSizeUITests.m */; };
+		C5BB0EB11C42958B006E4DC4 /* UIView+ReSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB0EB01C42958B006E4DC4 /* UIView+ReSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C5BB0E9C1C42956B006E4DC4 /* iOS-FEViewReSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-FEViewReSizeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BB0EA01C42956B006E4DC4 /* iOS_FEViewReSizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_FEViewReSizeUITests.m; sourceTree = "<group>"; };
 		C5BB0EA21C42956B006E4DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BB0EAF1C42958B006E4DC4 /* UIView+ReSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ReSize.h"; sourceTree = "<group>"; };
+		C5BB0EB01C42958B006E4DC4 /* UIView+ReSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ReSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		C5BB0E7A1C42956A006E4DC4 /* iOS-FEViewReSize */ = {
 			isa = PBXGroup;
 			children = (
+				C5BB0EAE1C429571006E4DC4 /* category */,
 				C5BB0E7E1C42956A006E4DC4 /* AppDelegate.h */,
 				C5BB0E7F1C42956A006E4DC4 /* AppDelegate.m */,
 				C5BB0E811C42956A006E4DC4 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				C5BB0EA21C42956B006E4DC4 /* Info.plist */,
 			);
 			path = "iOS-FEViewReSizeUITests";
+			sourceTree = "<group>";
+		};
+		C5BB0EAE1C429571006E4DC4 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB0EAF1C42958B006E4DC4 /* UIView+ReSize.h */,
+				C5BB0EB01C42958B006E4DC4 /* UIView+ReSize.m */,
+			);
+			name = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BB0EB11C42958B006E4DC4 /* UIView+ReSize.m in Sources */,
 				C5BB0E831C42956A006E4DC4 /* ViewController.m in Sources */,
 				C5BB0E801C42956A006E4DC4 /* AppDelegate.m in Sources */,
 				C5BB0E7D1C42956A006E4DC4 /* main.m in Sources */,
