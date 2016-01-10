@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5BB0E7D1C42956A006E4DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB0E7C1C42956A006E4DC4 /* main.m */; };
+		C5BB0E801C42956A006E4DC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB0E7F1C42956A006E4DC4 /* AppDelegate.m */; };
+		C5BB0E831C42956A006E4DC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB0E821C42956A006E4DC4 /* ViewController.m */; };
+		C5BB0E861C42956A006E4DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BB0E841C42956A006E4DC4 /* Main.storyboard */; };
+		C5BB0E881C42956A006E4DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BB0E871C42956A006E4DC4 /* Assets.xcassets */; };
+		C5BB0E8B1C42956A006E4DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BB0E891C42956A006E4DC4 /* LaunchScreen.storyboard */; };
+		C5BB0E961C42956B006E4DC4 /* iOS_FEViewReSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB0E951C42956B006E4DC4 /* iOS_FEViewReSizeTests.m */; };
+		C5BB0EA11C42956B006E4DC4 /* iOS_FEViewReSizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB0EA01C42956B006E4DC4 /* iOS_FEViewReSizeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5BB0E921C42956B006E4DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5BB0E701C42956A006E4DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5BB0E771C42956A006E4DC4;
+			remoteInfo = "iOS-FEViewReSize";
+		};
+		C5BB0E9D1C42956B006E4DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5BB0E701C42956A006E4DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5BB0E771C42956A006E4DC4;
+			remoteInfo = "iOS-FEViewReSize";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5BB0E781C42956A006E4DC4 /* iOS-FEViewReSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-FEViewReSize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BB0E7C1C42956A006E4DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5BB0E7E1C42956A006E4DC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5BB0E7F1C42956A006E4DC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5BB0E811C42956A006E4DC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5BB0E821C42956A006E4DC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5BB0E851C42956A006E4DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5BB0E871C42956A006E4DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5BB0E8A1C42956A006E4DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5BB0E8C1C42956A006E4DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BB0E911C42956B006E4DC4 /* iOS-FEViewReSizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-FEViewReSizeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BB0E951C42956B006E4DC4 /* iOS_FEViewReSizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_FEViewReSizeTests.m; sourceTree = "<group>"; };
+		C5BB0E971C42956B006E4DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BB0E9C1C42956B006E4DC4 /* iOS-FEViewReSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-FEViewReSizeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BB0EA01C42956B006E4DC4 /* iOS_FEViewReSizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_FEViewReSizeUITests.m; sourceTree = "<group>"; };
+		C5BB0EA21C42956B006E4DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5BB0E751C42956A006E4DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB0E8E1C42956B006E4DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB0E991C42956B006E4DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5BB0E6F1C42956A006E4DC4 = {
+			isa = PBXGroup;
+			children = (
+				C5BB0E7A1C42956A006E4DC4 /* iOS-FEViewReSize */,
+				C5BB0E941C42956B006E4DC4 /* iOS-FEViewReSizeTests */,
+				C5BB0E9F1C42956B006E4DC4 /* iOS-FEViewReSizeUITests */,
+				C5BB0E791C42956A006E4DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5BB0E791C42956A006E4DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB0E781C42956A006E4DC4 /* iOS-FEViewReSize.app */,
+				C5BB0E911C42956B006E4DC4 /* iOS-FEViewReSizeTests.xctest */,
+				C5BB0E9C1C42956B006E4DC4 /* iOS-FEViewReSizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5BB0E7A1C42956A006E4DC4 /* iOS-FEViewReSize */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB0E7E1C42956A006E4DC4 /* AppDelegate.h */,
+				C5BB0E7F1C42956A006E4DC4 /* AppDelegate.m */,
+				C5BB0E811C42956A006E4DC4 /* ViewController.h */,
+				C5BB0E821C42956A006E4DC4 /* ViewController.m */,
+				C5BB0E841C42956A006E4DC4 /* Main.storyboard */,
+				C5BB0E871C42956A006E4DC4 /* Assets.xcassets */,
+				C5BB0E891C42956A006E4DC4 /* LaunchScreen.storyboard */,
+				C5BB0E8C1C42956A006E4DC4 /* Info.plist */,
+				C5BB0E7B1C42956A006E4DC4 /* Supporting Files */,
+			);
+			path = "iOS-FEViewReSize";
+			sourceTree = "<group>";
+		};
+		C5BB0E7B1C42956A006E4DC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB0E7C1C42956A006E4DC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5BB0E941C42956B006E4DC4 /* iOS-FEViewReSizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB0E951C42956B006E4DC4 /* iOS_FEViewReSizeTests.m */,
+				C5BB0E971C42956B006E4DC4 /* Info.plist */,
+			);
+			path = "iOS-FEViewReSizeTests";
+			sourceTree = "<group>";
+		};
+		C5BB0E9F1C42956B006E4DC4 /* iOS-FEViewReSizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB0EA01C42956B006E4DC4 /* iOS_FEViewReSizeUITests.m */,
+				C5BB0EA21C42956B006E4DC4 /* Info.plist */,
+			);
+			path = "iOS-FEViewReSizeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5BB0E771C42956A006E4DC4 /* iOS-FEViewReSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BB0EA51C42956B006E4DC4 /* Build configuration list for PBXNativeTarget "iOS-FEViewReSize" */;
+			buildPhases = (
+				C5BB0E741C42956A006E4DC4 /* Sources */,
+				C5BB0E751C42956A006E4DC4 /* Frameworks */,
+				C5BB0E761C42956A006E4DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-FEViewReSize";
+			productName = "iOS-FEViewReSize";
+			productReference = C5BB0E781C42956A006E4DC4 /* iOS-FEViewReSize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5BB0E901C42956B006E4DC4 /* iOS-FEViewReSizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BB0EA81C42956B006E4DC4 /* Build configuration list for PBXNativeTarget "iOS-FEViewReSizeTests" */;
+			buildPhases = (
+				C5BB0E8D1C42956B006E4DC4 /* Sources */,
+				C5BB0E8E1C42956B006E4DC4 /* Frameworks */,
+				C5BB0E8F1C42956B006E4DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5BB0E931C42956B006E4DC4 /* PBXTargetDependency */,
+			);
+			name = "iOS-FEViewReSizeTests";
+			productName = "iOS-FEViewReSizeTests";
+			productReference = C5BB0E911C42956B006E4DC4 /* iOS-FEViewReSizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5BB0E9B1C42956B006E4DC4 /* iOS-FEViewReSizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BB0EAB1C42956B006E4DC4 /* Build configuration list for PBXNativeTarget "iOS-FEViewReSizeUITests" */;
+			buildPhases = (
+				C5BB0E981C42956B006E4DC4 /* Sources */,
+				C5BB0E991C42956B006E4DC4 /* Frameworks */,
+				C5BB0E9A1C42956B006E4DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5BB0E9E1C42956B006E4DC4 /* PBXTargetDependency */,
+			);
+			name = "iOS-FEViewReSizeUITests";
+			productName = "iOS-FEViewReSizeUITests";
+			productReference = C5BB0E9C1C42956B006E4DC4 /* iOS-FEViewReSizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5BB0E701C42956A006E4DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					C5BB0E771C42956A006E4DC4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5BB0E901C42956B006E4DC4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5BB0E771C42956A006E4DC4;
+					};
+					C5BB0E9B1C42956B006E4DC4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5BB0E771C42956A006E4DC4;
+					};
+				};
+			};
+			buildConfigurationList = C5BB0E731C42956A006E4DC4 /* Build configuration list for PBXProject "iOS-FEViewReSize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5BB0E6F1C42956A006E4DC4;
+			productRefGroup = C5BB0E791C42956A006E4DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5BB0E771C42956A006E4DC4 /* iOS-FEViewReSize */,
+				C5BB0E901C42956B006E4DC4 /* iOS-FEViewReSizeTests */,
+				C5BB0E9B1C42956B006E4DC4 /* iOS-FEViewReSizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5BB0E761C42956A006E4DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB0E8B1C42956A006E4DC4 /* LaunchScreen.storyboard in Resources */,
+				C5BB0E881C42956A006E4DC4 /* Assets.xcassets in Resources */,
+				C5BB0E861C42956A006E4DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB0E8F1C42956B006E4DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB0E9A1C42956B006E4DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5BB0E741C42956A006E4DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB0E831C42956A006E4DC4 /* ViewController.m in Sources */,
+				C5BB0E801C42956A006E4DC4 /* AppDelegate.m in Sources */,
+				C5BB0E7D1C42956A006E4DC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB0E8D1C42956B006E4DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB0E961C42956B006E4DC4 /* iOS_FEViewReSizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB0E981C42956B006E4DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB0EA11C42956B006E4DC4 /* iOS_FEViewReSizeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5BB0E931C42956B006E4DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5BB0E771C42956A006E4DC4 /* iOS-FEViewReSize */;
+			targetProxy = C5BB0E921C42956B006E4DC4 /* PBXContainerItemProxy */;
+		};
+		C5BB0E9E1C42956B006E4DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5BB0E771C42956A006E4DC4 /* iOS-FEViewReSize */;
+			targetProxy = C5BB0E9D1C42956B006E4DC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5BB0E841C42956A006E4DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BB0E851C42956A006E4DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5BB0E891C42956A006E4DC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BB0E8A1C42956A006E4DC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5BB0EA31C42956B006E4DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5BB0EA41C42956B006E4DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5BB0EA61C42956B006E4DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-FEViewReSize/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEViewReSize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5BB0EA71C42956B006E4DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-FEViewReSize/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEViewReSize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5BB0EA91C42956B006E4DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-FEViewReSizeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEViewReSizeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-FEViewReSize.app/iOS-FEViewReSize";
+			};
+			name = Debug;
+		};
+		C5BB0EAA1C42956B006E4DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-FEViewReSizeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEViewReSizeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-FEViewReSize.app/iOS-FEViewReSize";
+			};
+			name = Release;
+		};
+		C5BB0EAC1C42956B006E4DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-FEViewReSizeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEViewReSizeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-FEViewReSize";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5BB0EAD1C42956B006E4DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-FEViewReSizeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEViewReSizeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-FEViewReSize";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5BB0E731C42956A006E4DC4 /* Build configuration list for PBXProject "iOS-FEViewReSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BB0EA31C42956B006E4DC4 /* Debug */,
+				C5BB0EA41C42956B006E4DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BB0EA51C42956B006E4DC4 /* Build configuration list for PBXNativeTarget "iOS-FEViewReSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BB0EA61C42956B006E4DC4 /* Debug */,
+				C5BB0EA71C42956B006E4DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5BB0EA81C42956B006E4DC4 /* Build configuration list for PBXNativeTarget "iOS-FEViewReSizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BB0EA91C42956B006E4DC4 /* Debug */,
+				C5BB0EAA1C42956B006E4DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5BB0EAB1C42956B006E4DC4 /* Build configuration list for PBXNativeTarget "iOS-FEViewReSizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BB0EAC1C42956B006E4DC4 /* Debug */,
+				C5BB0EAD1C42956B006E4DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5BB0E701C42956A006E4DC4 /* Project object */;
+}
